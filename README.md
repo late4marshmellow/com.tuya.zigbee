@@ -30,6 +30,26 @@ A community-driven Homey app that brings local control to Tuya Zigbee devices �
 
 ---
 
+## 🚀 Latest Updates
+
+<!-- CHANGELOG_START - Auto-updated from .homeychangelog.json -->
+### ✨ Recent Changes (Apr 2026)
+
+| Version | Feature |
+|---------|---------|
+| **v5.12.3** | v5.12.2: |
+| **v5.12.2** | v5.12.1: Added support for Zbeacon smart plugs and TS110E dimmer switches, En... |
+| **v5.12.1** | Added support for Zbeacon plugs, TS110E dimmers, and multiple new device vari... |
+| **v5.12.0** | Major stabilization release: Integrated Parallel Bot Handler for faster maint... |
+| **v5.11.208** | Added Zbeacon support and fixed fingerprint casing regression in Universal Tu... |
+| **v5.11.206** | v5.11.205: Added 3 new fingerprints to improve device compatibility., Integra... |
+| **v5.11.205** | Added 3 new fingerprints for enhanced device compatibility in Universal Tuya ... |
+| **v5.11.204** | Updated Universal Tuya Zigbee app to v5.11.204 with . Added support for Full ... |
+| **v5.11.203** | Added universal support for all 4 Zigbee SOS reporting standards to emergency... |
+| **v5.11.202** | Added support for new Tuya devices and improved pairing instructions. |
+<!-- CHANGELOG_END -->
+
+
 ## Statistics
 
 | Metric | Value |
