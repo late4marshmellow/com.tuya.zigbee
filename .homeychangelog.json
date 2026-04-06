@@ -1,4 +1,7 @@
 {
+  "5.12.1": {
+    "en": "Added support for Zbeacon plugs, TS110E dimmers, and multiple new device variants. Fixed Tuya-Bridge mode pairing, resolved driver fingerprint collisions, corrected hybrid flow card routing, and improved capability update stability."
+  },
   "5.12.0": {
     "en": "Major stabilization release: Integrated Parallel Bot Handler for faster maintenance, fixed eWeLink/SONOFF plug support (Issue #194), and resolved multi-gang capability mapping bugs."
   },
@@ -56,10 +59,7 @@
   "5.11.190": {
     "en": "Added 27 new device fingerprints and low-battery alerts for 113 devices. Fixed SDK v3 flow crashes, restored missing battery capabilities, added time sync for 13 thermostats, and fixed missing capabilities in 10 remote drivers."
   },
-  "5.11.189": {
-    "en": "Added 27 new device fingerprints including Nedis SmartLife Radiator. Fixed SDK v3 flow card crashes, resolved alarm_battery capability conflicts, and restored battery reporting. Added time sync for 13 TRV drivers and fixed missing capabilities in 10 remote drivers."
-  },
-  "5.12.1": {
-    "en": "v5.11.208: Fixed fingerprint casing regression., Added support for Zbeacon devices."
+  "5.12.2": {
+    "en": "v5.12.1: Added support for Zbeacon smart plugs and TS110E dimmer switches, Enriched driver database with multiple new Tuya device variants, Fixed fingerprint casing regression to ensure reliable case-insensitive matching, Relaxed cluster matching logic to properly pair and communicate with Tuya-Bridge mode devices, Resolved driver fingerprint collisions that caused incorrect device assignments"
   }
 }
