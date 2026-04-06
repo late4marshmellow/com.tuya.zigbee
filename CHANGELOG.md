@@ -4,7 +4,12 @@ All notable changes to the **Universal Tuya Zigbee** app for Homey Pro.
 
 ---
 
-## [5.12.1] - 2026-04-06
+## [5.12.2] - 2026-04-06
+
+v5.12.1: Added support for Zbeacon smart plugs and TS110E dimmer switches, Enriched driver database with multiple new Tuya device variants, Fixed fingerprint casing regression to ensure reliable case-insensitive matching, Relaxed cluster matching logic to properly pair and communicate with Tuya-Bridge mode devices, Resolved driver fingerprint collisions that caused incorrect device assignments
+---
+
+ [5.12.1] - 2026-04-06
 
 ### New Devices & Fingerprints
 - Added support for Zbeacon smart plugs and TS110E dimmer switches

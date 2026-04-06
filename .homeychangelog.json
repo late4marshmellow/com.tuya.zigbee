@@ -1,4 +1,7 @@
 {
+  "5.12.2": {
+    "en": "v5.12.1: Added support for Zbeacon smart plugs and TS110E dimmer switches, Enriched driver database with multiple new Tuya device variants, Fixed fingerprint casing regression to ensure reliable case-insensitive matching, Relaxed cluster matching logic to properly pair and communicate with Tuya-Bridge mode devices, Resolved driver fingerprint collisions that caused incorrect device assignments"
+  },
   "5.12.1": {
     "en": "Added support for Zbeacon plugs, TS110E dimmers, and multiple new device variants. Fixed Tuya-Bridge mode pairing, resolved driver fingerprint collisions, corrected hybrid flow card routing, and improved capability update stability."
   },
@@ -56,10 +59,7 @@
   "5.11.191": {
     "en": "Added 28 new device fingerprints, including Nedis SmartLife Radiator Control. Expanded compatibility across switch, sensor, and climate drivers."
   },
-  "5.11.190": {
-    "en": "Added 27 new device fingerprints and low-battery alerts for 113 devices. Fixed SDK v3 flow crashes, restored missing battery capabilities, added time sync for 13 thermostats, and fixed missing capabilities in 10 remote drivers."
-  },
-  "5.12.2": {
-    "en": "v5.12.1: Added support for Zbeacon smart plugs and TS110E dimmer switches, Enriched driver database with multiple new Tuya device variants, Fixed fingerprint casing regression to ensure reliable case-insensitive matching, Relaxed cluster matching logic to properly pair and communicate with Tuya-Bridge mode devices, Resolved driver fingerprint collisions that caused incorrect device assignments"
+  "5.12.3": {
+    "en": "v5.12.2:"
   }
 }
