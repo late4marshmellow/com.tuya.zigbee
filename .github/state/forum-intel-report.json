@@ -1,17 +1,34 @@
 {
-  "timestamp": "2026-04-04T06:14:30.567Z",
-  "mode": "dry",
+  "timestamp": "2026-04-06T14:32:13.793Z",
+  "mode": "live",
   "fpStats": {
-    "known": 3994,
-    "missing": 0,
-    "added": 0,
+    "known": 10355,
+    "missing": 2,
+    "added": 1,
     "skipped": 0,
-    "needsReview": 0
+    "needsReview": 1
   },
-  "issueCategories": {},
-  "added": [],
-  "suggestions": [],
-  "topPainPoints": [],
-  "wifiRequestCount": 0,
+  "issueCategories": {
+    "unknown_device": 1,
+    "wifi_request": 2
+  },
+  "added": [
+    {
+      "fp": "_TZ3000_sqcn0y",
+      "driver": "switch_1gang",
+      "dry": false
+    }
+  ],
+  "suggestions": [
+    {
+      "fp": "_TZE284_4vobcgd3",
+      "reason": "Need Z2M/interview data to assign driver"
+    }
+  ],
+  "topPainPoints": [
+    "wifi_request: 2",
+    "unknown_device: 1"
+  ],
+  "wifiRequestCount": 2,
   "pairingIssueCount": 0
 }

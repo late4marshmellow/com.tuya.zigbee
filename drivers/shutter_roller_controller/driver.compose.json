@@ -27,11 +27,7 @@
     }
   },
   "zigbee": {
-    "manufacturerName": [
-      "_TZE204_GUVC7PDY",
-      "_TZE204_guvc7pdy",
-      "_tze204_guvc7pdy"
-    ],
+    "manufacturerName": [],
     "productId": [
       "TS0601",
       "TS0601_SHUTTER",

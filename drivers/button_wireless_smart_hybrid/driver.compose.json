@@ -44,19 +44,27 @@
   },
   "zigbee": {
     "manufacturerName": [
-      "_TZ3000_FA9MLVJA",
-      "_TZ3000_QGWCXXWS",
-      "_TZ3000_YJ6K7VFO",
-      "_TZ3000_fa9mlvja",
-      "_TZ3000_qgwcxxws",
-      "_TZ3000_yj6k7vfo",
-      "_tz3000_fa9mlvja",
-      "_tz3000_qgwcxxws",
-      "_tz3000_yj6k7vfo"
+      "_tz3000_0ht8dnxj",
+      "_tz3000_0ht8dnxj",
+      "_tz3000_kjfzuycl",
+      "_tz3000_uri7ongn",
+      "_tz3000_kjfzuycl",
+      "_tz3000_uri7ongn",
+      "_tz3000_0ht8dnxj",
+      "_tz3000_kjfzuycl",
+      "_tz3000_uri7ongn",
+      "_tz3000_qja6nq5z",
+      "_tz3000_qja6nq5z",
+      "_tz3000_qja6nq5z",
+      "_tz3000_pcqjmcud",
+      "_tz3000_pcqjmcud",
+      "_tz3000_pcqjmcud"
     ],
     "productId": [
       "TS0041",
-      "ts0041"
+      "ts0041",
+      "TS004F",
+      "ts004f"
     ],
     "endpoints": {
       "1": {

@@ -1,12 +1,179 @@
 {
-  "timestamp": "2026-04-04T03:14:01.818Z",
+  "timestamp": "2026-04-06T14:30:20.857Z",
   "topicsScanned": 258,
-  "totalPosts": 0,
-  "categories": {},
-  "missingFPs": [],
-  "wifiRequests": [],
+  "totalPosts": 5,
+  "categories": {
+    "unknown_device": 1,
+    "wifi_request": 2
+  },
+  "missingFPs": [
+    "_TZE284_4vobcgd3",
+    "_TZ3000_sqcn0y"
+  ],
+  "wifiRequests": [
+    {
+      "user": "dlnraja",
+      "date": "2026-04-05",
+      "topicId": 140352,
+      "postNum": 1716,
+      "postId": 727850,
+      "missing": [],
+      "found": [
+        "_TZE284_ne4pikwm"
+      ],
+      "issues": [
+        "wifi_request"
+      ],
+      "text": "  v5.11.203  is up on  test . \n v5.11.201: Added support for 3 new device fingerprints, including the Nedis SmartLife Radiator Control ( _TZE284_ne4pikwm )., Fixed connection drops and CIE self-healing for SOS emergency button devices., Resolved battery status probing on sleepy SOS devices to ensure"
+    },
+    {
+      "user": "dlnraja",
+      "date": "2026-04-05",
+      "topicId": 140352,
+      "postNum": 1714,
+      "postId": 727827,
+      "missing": [],
+      "found": [],
+      "issues": [
+        "wifi_request"
+      ],
+      "text": "  v5.11.201  is up on  test . \n v5.11.200: Added support for ZG-204ZM., Added support for WiFi water sensor., Stabilized functionality for sleepy devices. \n Covers a huge range of Tuya devices at this point. "
+    }
+  ],
   "pairingIssues": [],
-  "unknownDevices": [],
+  "unknownDevices": [
+    {
+      "user": "Clement_Loridan",
+      "date": "2026-04-06",
+      "topicId": 140352,
+      "postNum": 1731,
+      "postId": 728029,
+      "missing": [],
+      "found": [
+        "SNZB-01M"
+      ],
+      "issues": [
+        "unknown_device"
+      ],
+      "text": " I don’t know if I have to post here or on GitHub, but on GitHub, I didn’t find any bug template. \n Sonoff SNZB-01M not recognized by Homey (unsupported device?) \n I’m trying to add a Sonoff SNZB-01M to my Homey Pro, but the device is not recognized at all during Zigbee pairing. \n So I see only batt"
+    }
+  ],
   "wrongValues": [],
-  "allIssues": []
+  "allIssues": [
+    {
+      "user": "Clement_Loridan",
+      "date": "2026-04-06",
+      "topicId": 140352,
+      "postNum": 1731,
+      "postId": 728029,
+      "missing": [],
+      "found": [
+        "SNZB-01M"
+      ],
+      "issues": [
+        "unknown_device"
+      ],
+      "text": " I don’t know if I have to post here or on GitHub, but on GitHub, I didn’t find any bug template. \n Sonoff SNZB-01M not recognized by Homey (unsupported device?) \n I’m trying to add a Sonoff SNZB-01M to my Homey Pro, but the device is not recognized at all during Zigbee pairing. \n So I see only batt"
+    },
+    {
+      "user": "dlnraja",
+      "date": "2026-04-06",
+      "topicId": 140352,
+      "postNum": 1730,
+      "postId": 728013,
+      "missing": [
+        "_TZE284_4vobcgd3"
+      ],
+      "found": [
+        "_TYZB01_a476raq2",
+        "_TYZB01_ftdkanlj",
+        "_TYZB01_hjsgdkfl",
+        "_TYZB01_kvwjujy9",
+        "_TZ2000_a476raq2",
+        "_TZ2000_avdnvykf",
+        "_TZ2000_hjsgdkfl",
+        "_TZ2000_xogb73am",
+        "_TZ3000_0s1izerx",
+        "_TZ3000_akqdg6g7",
+        "_TZ3000_bjawzodf",
+        "_TZ3000_dowj6gyi",
+        "_TZ3000_itnrsufe",
+        "_TZ3000_qaaysllp",
+        "_TZ3000_rusu2vzb",
+        "_TZ3000_yd2e749y",
+        "_TZ3000_ywagc4rj",
+        "_TZ3210_huzkzqyk",
+        "_TZ3210_ncw88jfq",
+        "_TZE284_2se8efxh",
+        "_TZE284_bjzrowv2"
+      ],
+      "issues": [],
+      "text": " Just pushed  v5.12.2  to the  test channel . \n Added support for new devices: \n \n r_purifier (TUYATEC-qun7vq14, _TYZB01_a476raq2, _TYZB01_ftdkanlj, _TYZB01_hjsgdkfl, _TYZB01_kvwjujy9, _TZ2000_a476raq2, _TZ2000_avdnvykf, _TZ2000_hjsgdkfl, _TZ2000_xogb73am, _TZ3000_0s1izerx, _TZ3000_akqdg6g7, _TZ3000"
+    },
+    {
+      "user": "dlnraja",
+      "date": "2026-04-06",
+      "topicId": 140352,
+      "postNum": 1723,
+      "postId": 727889,
+      "missing": [
+        "_TZ3000_sqcn0y"
+      ],
+      "found": [
+        "_TYST11_d0yu2xgi",
+        "_TZ3000_6uzkisv2",
+        "_TZ3000_fllyghyj",
+        "_TZ3000_utwgoauk",
+        "_TZ3000_xr3htd96",
+        "_TZ3000_zl1kmjqx",
+        "_TZE200_0nauxa0p",
+        "_TZE200_1agwnems",
+        "_TZE200_2se8efxh",
+        "_TZE200_3p5ydos3",
+        "_TZE200_3towulqd",
+        "_TZE200_44af8vyi",
+        "_TZE200_4mh6tyyo",
+        "_TZE200_579lguh2",
+        "_TZE200_8ygsuhe1",
+        "_TZE200_9cqcpkgb",
+        "_TZE200_9cxuhakf",
+        "_TZE200_9i9dt8is",
+        "_TZE200_9yapgbuv",
+        "_TZE200_a0syesf5",
+        "_TZE200_aqnazj70",
+        "_TZE200_bh3n6gk8",
+        "_TZE200_bjawzodf"
+      ],
+      "issues": [],
+      "text": "  v5.12.2  is up on  test . \n Added support for new devices: \n \n r_purifier (_TYST11_d0yu2xgi, _TZ3000_6uzkisv2, _TZ3000_fllyghyj, _TZ3000_sqcn0y, _TZ3000_utwgoauk, _TZ3000_xr3htd96, _TZ3000_zl1kmjqx, _TZE200_0nauxa0p, _TZE200_1agwnems, _TZE200_2se8efxh, _TZE200_3p5ydos3, _TZE200_3towulqd, _TZE200_4"
+    },
+    {
+      "user": "dlnraja",
+      "date": "2026-04-05",
+      "topicId": 140352,
+      "postNum": 1716,
+      "postId": 727850,
+      "missing": [],
+      "found": [
+        "_TZE284_ne4pikwm"
+      ],
+      "issues": [
+        "wifi_request"
+      ],
+      "text": "  v5.11.203  is up on  test . \n v5.11.201: Added support for 3 new device fingerprints, including the Nedis SmartLife Radiator Control ( _TZE284_ne4pikwm )., Fixed connection drops and CIE self-healing for SOS emergency button devices., Resolved battery status probing on sleepy SOS devices to ensure"
+    },
+    {
+      "user": "dlnraja",
+      "date": "2026-04-05",
+      "topicId": 140352,
+      "postNum": 1714,
+      "postId": 727827,
+      "missing": [],
+      "found": [],
+      "issues": [
+        "wifi_request"
+      ],
+      "text": "  v5.11.201  is up on  test . \n v5.11.200: Added support for ZG-204ZM., Added support for WiFi water sensor., Stabilized functionality for sleepy devices. \n Covers a huge range of Tuya devices at this point. "
+    }
+  ]
 }

@@ -68,13 +68,26 @@
   },
   "zigbee": {
     "manufacturerName": [
-      "_TZ3000_U3NV1JWK",
-      "_TZ3000_u3nv1jwk",
-      "_tz3000_u3nv1jwk"
+      "_TYST11_wmcdj3aq",
+      "_TYST11_jeaxp72v",
+      "_TYST11_kfvq6avy",
+      "_TYST11_zivfvd7h",
+      "_TYST11_hhrtiq0x",
+      "_TYST11_ps5v5jor",
+      "_TYST11_owwdxjbx",
+      "_TYST11_8daqwrsj",
+      "_TYST11_czk78ptr",
+      "_TYST11_ckud7u2l",
+      "_TYST11_ywdxldoj",
+      "_TYST11_cwnjrr72",
+      "_TYST11_2atgpdho"
     ],
     "productId": [
       "TS0044",
-      "ts0044"
+      "ts0044",
+      "_TYST11_wmcdj3aq",
+      "_TYST11_jeaxp72v",
+      "_TYST11_ckud7u2l"
     ],
     "learnmode": {
       "image": "/drivers/button_wireless_4/assets/learnmode.svg",

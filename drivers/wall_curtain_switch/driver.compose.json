@@ -26,11 +26,7 @@
     }
   },
   "zigbee": {
-    "manufacturerName": [
-      "_TZ3000_WPTAYAQR",
-      "_TZ3000_wptayaqr",
-      "_tz3000_wptayaqr"
-    ],
+    "manufacturerName": [],
     "productId": [
       "TS130F",
       "ts130f"

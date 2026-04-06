@@ -1,8 +1,65 @@
 {
-  "timestamp": "2026-04-03T14:52:34.784Z",
-  "appVersion": "5.11.154",
+  "timestamp": "2026-04-06T15:00:03.809Z",
+  "appVersion": "5.12.3",
   "findings": {
     "issues": [
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 170,
+        "title": "Bug: TS0003 (_TZ3000_v4l4b0lp) - Sub-capability Flow cards (Gang 1/2/3) are completely unlinked",
+        "user": "Ssssneak",
+        "newFPs": [],
+        "existingFPs": [
+          {
+            "fp": "_TZ3000_v4l4b0lp",
+            "drivers": [
+              "switch_3gang"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/170",
+        "state": "open",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 197,
+        "title": "[plug_energy_monitor] Bug: _TZ3000_wzmuk9ai",
+        "user": "haadeess",
+        "newFPs": [],
+        "existingFPs": [
+          {
+            "fp": "_TZ3000_wzmuk9ai",
+            "drivers": [
+              "button_wireless_2",
+              "plug_energy_monitor",
+              "soil_sensor"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/197",
+        "state": "open",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 193,
+        "title": "[climate_sensor _TZ3000_xr3htd96 TS0201] Bug:",
+        "user": "john1v",
+        "newFPs": [],
+        "existingFPs": [
+          {
+            "fp": "_TZ3000_xr3htd96",
+            "drivers": [
+              "air_purifier",
+              "climate_sensor"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/193",
+        "state": "closed",
+        "imageAnalysis": null
+      },
       {
         "repo": "dlnraja/com.tuya.zigbee",
         "number": 183,
@@ -18,7 +75,680 @@
           }
         ],
         "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/183",
-        "state": "open",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 190,
+        "title": "[Auto] 27 new fingerprints from community (2026-04)",
+        "user": "github-actions[bot]",
+        "newFPs": [
+          "_TZ3000_wol32olt",
+          "_TZE284_uo8qcagc",
+          "_TZB210_qzsxaqqe",
+          "_TZE284_tgrzpqf4",
+          "_TZE284_nbv4tdaz",
+          "_TZ3000_dojqjapa",
+          "_TZE204_cduqh1l0",
+          "_TZE284_4vobcgd3",
+          "_TZ3210_zifx0xoj",
+          "_TZ3008_reatplte",
+          "_TZ3000_uyrhiafs",
+          "_TZ3000_t7ugva7q",
+          "_TZ3210_imaccztn",
+          "_TZ3000_icoxotza",
+          "_TZ3210_vbfp8eyv",
+          "_TZE284_bw4ayyeh",
+          "_TZE284_mul9abs3",
+          "_TZ3002_vsom92pp",
+          "_TZE284_3regm3h6",
+          "_TZE204_ouy7vpm1",
+          "_TZE284_mvtclclq",
+          "_TZE200_hbnfokum",
+          "_TZE200_w0ap83qu",
+          "_TZE284_4vbj3fxh"
+        ],
+        "existingFPs": [
+          {
+            "fp": "_TZ3210_7vgttna6",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_a04acm9s",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_cm9mbpr1",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/190",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 195,
+        "title": "[Auto] 2141 new fingerprints from community (2026-04)",
+        "user": "github-actions[bot]",
+        "newFPs": [],
+        "existingFPs": [
+          {
+            "fp": "_TZE200_s8gkrkxk",
+            "drivers": [
+              "air_purifier",
+              "thermostat_tuya_dp"
+            ]
+          },
+          {
+            "fp": "_TZ3000_vd43bbfq",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_1dd0d5yi",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_ke7pzj5d",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_fccpjz5z",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_4uuaja4a",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_zirycpws",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_femsaaua",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_e3vhyirx",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_jwv3cwak",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3210_dwytrmda",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3210_ol1uhvza",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_eg7awg6a",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_eafaa66e",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_j1xl73iw",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_l6iqph4f",
+            "drivers": [
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_5zbp6j0u",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_bjzrowv2",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_nkoabg8w",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_xuzcvlku",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_4vobcgd3",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_nogaemzt",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_r0jdjrvi",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_pk0sfzvr",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_fdtjuw7u",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_zpzndjez",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_wmcdj3aq",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor",
+              "curtain_motor_shutter_hybrid"
+            ]
+          },
+          {
+            "fp": "_TZE200_cowvfni3",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor",
+              "curtain_motor_shutter_hybrid"
+            ]
+          },
+          {
+            "fp": "_TZE200_rddyvrci",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_nueqqe6k",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_xaabybja",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_rmymn92d",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_3i3exuay",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_zah67ekd",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_hsgrhjpf",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_68nvbio9",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor_tilt"
+            ]
+          },
+          {
+            "fp": "_TZE200_pw7mji0l",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_uj3f4wr5",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE204_1fuxihti",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_axgvo9jh",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_gaj531w3",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_yia0p3tr",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_nw1r9hp6",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_cf1sl3tj",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE200_9p5xmj5r",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZE204_xu4a5rhj",
+            "drivers": [
+              "air_purifier",
+              "curtain_motor"
+            ]
+          },
+          {
+            "fp": "_TZ3210_invesber",
+            "drivers": [
+              "bulb_rgb",
+              "bulb_rgb_led_hybrid",
+              "bulb_tunable_white",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZ3210_zdrhqmo0",
+            "drivers": [
+              "bulb_tunable_white",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TYZB01_qezuin6k",
+            "drivers": [
+              "bulb_dimmable"
+            ]
+          },
+          {
+            "fp": "_TZ3210_ngqk6jia",
+            "drivers": [
+              "bulb_dimmable",
+              "dimmer_ts110e",
+              "dimmer_wall_1gang",
+              "water_leak_sensor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_ktuoyvt5",
+            "drivers": [
+              "bulb_dimmable",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZ3210_zxbtub8r",
+            "drivers": [
+              "bulb_dimmable",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZ3210_weaqkhab",
+            "drivers": [
+              "bulb_dimmable",
+              "dimmer_ts110e",
+              "dimmer_wall_1gang",
+              "water_leak_sensor"
+            ]
+          },
+          {
+            "fp": "_TZ3210_k1msuvg6",
+            "drivers": [
+              "bulb_dimmable",
+              "bulb_rgb",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZ3000_mgusv51k",
+            "drivers": [
+              "bulb_dimmable",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE200_la2c2uo9",
+            "drivers": [
+              "air_purifier",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE204_hlx9tnzb",
+            "drivers": [
+              "air_purifier",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE200_ip2akl4w",
+            "drivers": [
+              "air_purifier",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE200_1agwnems",
+            "drivers": [
+              "air_purifier",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE200_579lguh2",
+            "drivers": [
+              "air_purifier",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE200_vucankjx",
+            "drivers": [
+              "air_purifier",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE200_4mh6tyyo",
+            "drivers": [
+              "air_purifier",
+              "dimmer_dual_channel_hybrid"
+            ]
+          },
+          {
+            "fp": "_TZE204_n9ctkb6j",
+            "drivers": [
+              "air_purifier",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE204_9qhuzgo0",
+            "drivers": [
+              "air_purifier",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE204_dcnsggvz",
+            "drivers": [
+              "air_purifier",
+              "switch_dimmer_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE204_5cuocqty",
+            "drivers": [
+              "air_purifier",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TYZB01_v8gtiaed",
+            "drivers": [
+              "bulb_dimmable"
+            ]
+          },
+          {
+            "fp": "_TZ3000_92chsky7",
+            "drivers": [
+              "bulb_dimmable",
+              "dimmer_dual_channel"
+            ]
+          },
+          {
+            "fp": "_TZ3210_wdexaypg",
+            "drivers": [
+              "bulb_dimmable",
+              "bulb_rgbw",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZ3210_3mpwqzuu",
+            "drivers": [
+              "bulb_dimmable",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZ3210_pagajpog",
+            "drivers": [
+              "bulb_dimmable",
+              "dimmer_dual_channel",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZ3210_4ubylghk",
+            "drivers": [
+              "bulb_dimmable",
+              "bulb_rgb",
+              "bulb_tunable_white",
+              "dimmer_dual_channel"
+            ]
+          },
+          {
+            "fp": "_TZ3000_7ysdnebc",
+            "drivers": [
+              "bulb_dimmable",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE200_e3oitdyu",
+            "drivers": [
+              "air_purifier",
+              "dimmer_dual_channel"
+            ]
+          },
+          {
+            "fp": "_TZE204_zenj4lxv",
+            "drivers": [
+              "air_purifier",
+              "dimmer_dual_channel",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE204_bxoo2swd",
+            "drivers": [
+              "air_purifier",
+              "dimmer_dual_channel",
+              "dimmer_wall_1gang"
+            ]
+          },
+          {
+            "fp": "_TZE200_gwkapsoq",
+            "drivers": [
+              "air_purifier",
+              "climate_sensor"
+            ]
+          },
+          {
+            "fp": "_TZE200_fjjbhx9d",
+            "drivers": [
+              "air_purifier",
+              "climate_sensor"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/195",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 192,
+        "title": "[Auto] 28 new fingerprints from community (2026-04)",
+        "user": "github-actions[bot]",
+        "newFPs": [
+          "_TZ3000_wol32olt",
+          "_TZE284_uo8qcagc",
+          "_TZB210_qzsxaqqe",
+          "_TZE284_tgrzpqf4",
+          "_TZE284_nbv4tdaz",
+          "_TZ3000_dojqjapa",
+          "_TZE204_cduqh1l0",
+          "_TZE284_4vobcgd3",
+          "_TZ3210_zifx0xoj",
+          "_TZ3210_2putqrmw",
+          "_TZ3008_reatplte",
+          "_TZ3000_uyrhiafs",
+          "_TZ3000_t7ugva7q",
+          "_TZ3210_imaccztn",
+          "_TZ3000_icoxotza",
+          "_TZ3210_vbfp8eyv",
+          "_TZE284_bw4ayyeh",
+          "_TZE284_mul9abs3",
+          "_TZ3002_vsom92pp",
+          "_TZE284_3regm3h6",
+          "_TZE204_ouy7vpm1",
+          "_TZE284_mvtclclq",
+          "_TZE200_hbnfokum",
+          "_TZE200_w0ap83qu",
+          "_TZE284_4vbj3fxh"
+        ],
+        "existingFPs": [
+          {
+            "fp": "_TZ3210_7vgttna6",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_a04acm9s",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_cm9mbpr1",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/192",
+        "state": "closed",
         "imageAnalysis": null
       },
       {
@@ -36,7 +766,96 @@
           }
         ],
         "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/184",
-        "state": "open",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 189,
+        "title": "[Auto] 27 new fingerprints from community (2026-04)",
+        "user": "github-actions[bot]",
+        "newFPs": [
+          "_TZ3000_wol32olt",
+          "_TZE284_uo8qcagc",
+          "_TZB210_qzsxaqqe",
+          "_TZE284_tgrzpqf4",
+          "_TZE284_nbv4tdaz",
+          "_TZ3000_dojqjapa",
+          "_TZE204_cduqh1l0",
+          "_TZE284_4vobcgd3",
+          "_TZ3210_zifx0xoj",
+          "_TZ3008_reatplte",
+          "_TZ3000_uyrhiafs",
+          "_TZ3000_t7ugva7q",
+          "_TZ3210_imaccztn",
+          "_TZ3000_icoxotza",
+          "_TZ3210_vbfp8eyv",
+          "_TZE284_bw4ayyeh",
+          "_TZE284_mul9abs3",
+          "_TZ3002_vsom92pp",
+          "_TZE284_3regm3h6",
+          "_TZE204_ouy7vpm1",
+          "_TZE284_mvtclclq",
+          "_TZE200_hbnfokum",
+          "_TZE200_w0ap83qu",
+          "_TZE284_4vbj3fxh"
+        ],
+        "existingFPs": [
+          {
+            "fp": "_TZ3210_7vgttna6",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_a04acm9s",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_cm9mbpr1",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/189",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 182,
+        "title": "[Auto] New Tuya devices found in zigbee2mqtt",
+        "user": "github-actions[bot]",
+        "newFPs": [
+          "_TZ3000_dojqjapa",
+          "_TZ3000_icoxotza",
+          "_TZ3000_t7ugva7q",
+          "_TZ3000_uyrhiafs",
+          "_TZ3002_vsom92pp",
+          "_TZ3008_reatplte",
+          "_TZ3210_imaccztn",
+          "_TZ3210_vbfp8eyv",
+          "_TZ3210_zifx0xoj",
+          "_TZB210_qzsxaqqe",
+          "_TZE200_hbnfokum",
+          "_TZE200_w0ap83qu",
+          "_TZE204_cduqh1l0",
+          "_TZE204_ouy7vpm1",
+          "_TZE284_3regm3h6",
+          "_TZE284_4vbj3fxh",
+          "_TZE284_4vobcgd3",
+          "_TZE284_bw4ayyeh",
+          "_TZE284_mul9abs3",
+          "_TZE284_mvtclclq",
+          "_TZE284_nbv4tdaz",
+          "_TZE284_tgrzpqf4"
+        ],
+        "existingFPs": [],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/182",
+        "state": "closed",
         "imageAnalysis": null
       },
       {
@@ -54,7 +873,177 @@
           }
         ],
         "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/171",
-        "state": "open",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 178,
+        "title": "[soil_sensor] Bug: No Connetion possible \t_TZE284_oitavov2",
+        "user": "haadeess",
+        "newFPs": [],
+        "existingFPs": [
+          {
+            "fp": "_TZE284_oitavov2",
+            "drivers": [
+              "soil_sensor"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/178",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 187,
+        "title": "[Auto] 27 new fingerprints from community (2026-04)",
+        "user": "github-actions[bot]",
+        "newFPs": [
+          "_TZ3000_wol32olt",
+          "_TZE284_uo8qcagc",
+          "_TZB210_qzsxaqqe",
+          "_TZE284_tgrzpqf4",
+          "_TZE284_nbv4tdaz",
+          "_TZ3000_dojqjapa",
+          "_TZE204_cduqh1l0",
+          "_TZE284_4vobcgd3",
+          "_TZ3210_zifx0xoj",
+          "_TZ3008_reatplte",
+          "_TZ3000_uyrhiafs",
+          "_TZ3000_t7ugva7q",
+          "_TZ3210_imaccztn",
+          "_TZ3000_icoxotza",
+          "_TZ3210_vbfp8eyv",
+          "_TZE284_bw4ayyeh",
+          "_TZE284_mul9abs3",
+          "_TZ3002_vsom92pp",
+          "_TZE284_3regm3h6",
+          "_TZE204_ouy7vpm1",
+          "_TZE284_mvtclclq",
+          "_TZE200_hbnfokum",
+          "_TZE200_w0ap83qu",
+          "_TZE284_4vbj3fxh"
+        ],
+        "existingFPs": [
+          {
+            "fp": "_TZ3210_7vgttna6",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_a04acm9s",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_cm9mbpr1",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/187",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 164,
+        "title": "[DEVICE]",
+        "user": "late4marshmellow",
+        "newFPs": [],
+        "existingFPs": [
+          {
+            "fp": "_TZ3000_otvn3lne",
+            "drivers": [
+              "motion_sensor"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/164",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 165,
+        "title": "Device Request - Zigbee Light sensor ZG-106Z",
+        "user": "johnx1971",
+        "newFPs": [],
+        "existingFPs": [
+          {
+            "fp": "_TZ3000_7y90pany",
+            "drivers": [
+              "climate_sensor"
+            ]
+          },
+          {
+            "fp": "_TZ3000_tsgqxdb4",
+            "drivers": [
+              "climate_sensor"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/165",
+        "state": "closed",
+        "imageAnalysis": null
+      },
+      {
+        "repo": "dlnraja/com.tuya.zigbee",
+        "number": 186,
+        "title": "[Auto] 27 new fingerprints from community (2026-04)",
+        "user": "github-actions[bot]",
+        "newFPs": [
+          "_TZ3000_wol32olt",
+          "_TZE284_uo8qcagc",
+          "_TZB210_qzsxaqqe",
+          "_TZE284_tgrzpqf4",
+          "_TZE284_nbv4tdaz",
+          "_TZ3000_dojqjapa",
+          "_TZE204_cduqh1l0",
+          "_TZE284_4vobcgd3",
+          "_TZ3210_zifx0xoj",
+          "_TZ3008_reatplte",
+          "_TZ3000_uyrhiafs",
+          "_TZ3000_t7ugva7q",
+          "_TZ3210_imaccztn",
+          "_TZ3000_icoxotza",
+          "_TZ3210_vbfp8eyv",
+          "_TZE284_bw4ayyeh",
+          "_TZE284_mul9abs3",
+          "_TZ3002_vsom92pp",
+          "_TZE284_3regm3h6",
+          "_TZE204_ouy7vpm1",
+          "_TZE284_mvtclclq",
+          "_TZE200_hbnfokum",
+          "_TZE200_w0ap83qu",
+          "_TZE284_4vbj3fxh"
+        ],
+        "existingFPs": [
+          {
+            "fp": "_TZ3210_7vgttna6",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_a04acm9s",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          },
+          {
+            "fp": "_TZ3210_cm9mbpr1",
+            "drivers": [
+              "bulb_rgb"
+            ]
+          }
+        ],
+        "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/186",
+        "state": "closed",
         "imageAnalysis": null
       },
       {
@@ -72,24 +1061,6 @@
           }
         ],
         "url": "https://github.com/JohanBendz/com.tuya.zigbee/issues/1361",
-        "state": "open",
-        "imageAnalysis": null
-      },
-      {
-        "repo": "JohanBendz/com.tuya.zigbee",
-        "number": 1360,
-        "title": "Device Request - [Nedis SmartLife Radiator Control] - [_TZE284_ne4pikwm] / [TS0601]",
-        "user": "gitebk",
-        "newFPs": [],
-        "existingFPs": [
-          {
-            "fp": "_TZE284_ne4pikwm",
-            "drivers": [
-              "climate_sensor"
-            ]
-          }
-        ],
-        "url": "https://github.com/JohanBendz/com.tuya.zigbee/issues/1360",
         "state": "open",
         "imageAnalysis": null
       }
@@ -186,5 +1157,5 @@
     "newFPs": [],
     "forkFPs": []
   },
-  "aiSummary": "# Universal Tuya Zigbee GitHub Activity Summary\n\n## New Device Requests\nSeveral new device requests have been identified in the GitHub issues:\n\n1. **Climate Sensor Model TS0201**\n   - **ID**: _TZ3000_tsgqxdb4\n   - **User**: Snacker80\n   - **Drivers**: climate_sensor\n   - **Issue Link**: [#183](https://github.com/dlnraja/com.tuya.zigbee/issues/183)\n\n2. **Temperature & Humidity Sensor with External Probe**\n   - **Manufacturer**: Shenzen New Green Energy Technologies Co. Ltd\n   - **ID**: _TZE284_8se38w3c (TS0601)\n   - **User**: pemikalsen-sudo\n   - **Drivers**: climate_sensor\n   - **Issue Link**: [#184](https://github.com/dlnraja/com.tuya.zigbee/issues/184)\n\n3. **Bseed E-touch Series Zigbee 1-Gang**\n   - **ID**: _TZ3002_jn2x20tg\n   - **User**: vbesteiro\n   - **Drivers**: switch_1gang\n   - **Issue Link**: [#171](https://github.com/dlnraja/com.tuya.zigbee/issues/171)\n\n4. **MiBoxer Zigbee 3.9 Remote**\n   - **ID**: _TZ3000_xwh1e22x\n   - **User**: gangstigen-glitch\n   - **Drivers**: bulb_rgbw\n   - **Issue Link**: [#1361](https://github.com/JohanBendz/com.tuya.zigbee/issues/1361)\n\n5. **Nedis SmartLife Radiator Control**\n   - **ID**: _TZE284_ne4pikwm (TS0601)\n   - **User**: gitebk\n   - **Drivers**: climate_sensor\n   - **Issue Link**: [#1360](https://github.com/JohanBendz/com.tuya.zigbee/issues/1360)\n\n## Existing Fingerprints Supported\nThe following fingerprints are already supported in the repository:\n\n- **_TZ3000_tsgqxdb4**: Supported as a climate sensor.\n- **_TZE284_8se38w3c**: Supported as a climate sensor.\n- **_TZ3002_jn2x20tg**: Supported as a switch_1gang.\n- **_TZ3000_xwh1e22x**: Supported as a bulb_rgbw.\n- **_TZE284_ne4pikwm**: Supported as a climate sensor.\n\n## Fingerprints from Forks to Integrate\nCurrently, there are no new fingerprints from forks identified for integration.\n\n## Pull Requests with Useful Changes\nSeveral pull requests (PRs) have been submitted that may contain useful changes:\n\n1. **Fix presence_sensor_radar pairing for DP-only TS0601 devices**\n   - **PR #180** by Robsta86\n   - **Status**: Closed\n   - **Link**: [PR #180](https://github.com/dlnraja/com.tuya.zigbee/pull/180)\n\n2. **Added TS110E driver**\n   - **PR #1350** by PiTRiS87\n   - **Status**: Open\n   - **Link**: [PR #1350](https://github.com/JohanBendz/com.tuya.zigbee/pull/1350)\n\n3. **Add support for Tuya PIR sensor TS0202**\n   - **PR #1166** by chernals\n   - **Status**: Closed\n   - **Link**: [PR #1166](https://github.com/JohanBendz/com.tuya.zigbee/pull/1166)\n\n4. **Added 3 new devices**\n   - **PR #1253** by Peter-Celica\n   - **Status**: Open\n   - **Link**: [PR #1253](https://github.com/JohanBendz/com.tuya.zigbee/pull/1253)\n\n5. **Update driver.compose.json**\n   - **PR #1219** by Melectro1\n   - **Status**: Open\n   - **Link**: [PR #1219](https://github.com/JohanBendz/com.tuya.zigbee/pull/1219)\n\n6. **Update driver.compose.json**\n   - **PR #1218** by Melectro1\n   - **Status**: Open\n   - **Link**: [PR #1218](https://github.com/JohanBendz/com.tuya.zigbee/pull/1218)\n\n7. **Add _TZE204_bjzrowv2 - Update app.json**\n   - **PR #1195** by YuriEstevan\n   - **Status**: Open\n   - **Link**: [PR #1195](https://github.com/JohanBendz/com.tuya.zigbee/pull/1195)\n\nThis summary encapsulates the latest developments in the Universal Tuya Zigbee project, highlighting new device requests, existing support, and ongoing contributions."
+  "aiSummary": "AI_OFFLINE_OR_LIMIT_REACHED"
 }

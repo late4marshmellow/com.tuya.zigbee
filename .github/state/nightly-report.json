@@ -1,41 +1,143 @@
 {
-  "timestamp": "2026-04-03T08:40:42.207Z",
-  "appVersion": "5.11.153",
-  "forum": 2,
-  "github": 1,
-  "diagnostics": 70,
+  "timestamp": "2026-04-06T15:24:47.109Z",
+  "appVersion": "5.12.3",
+  "forum": 13,
+  "github": 0,
+  "diagnostics": 56,
   "diagNewFPs": 0,
   "diagCritical": 0,
   "forumDetails": [
     {
       "topic": 140352,
-      "post": 1684,
-      "user": "robertklep",
+      "post": 1688,
+      "user": "Lasse_K",
       "fps": [],
-      "reply": "**Fingerprint check** (v5.11.153):\n✅ Supported: `generic` → **bulb_rgbw**\n",
-      "model": "template"
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
     },
     {
       "topic": 140352,
-      "post": 1686,
-      "user": "smarthomesven",
+      "post": 1689,
+      "user": "FrankP",
+      "fps": [
+        "_TZ3000_tzvbimpq"
+      ],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1690,
+      "user": "Peter_van_Werkhoven",
       "fps": [],
-      "reply": "**Fingerprint check** (v5.11.153):\n✅ Supported: `generic` → **bulb_rgbw**\n",
-      "model": "template"
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1699,
+      "user": "ManuelKugler",
+      "fps": [],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1701,
+      "user": "Adri1",
+      "fps": [
+        "_TZ3000_bgsigers"
+      ],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1703,
+      "user": "Adri1",
+      "fps": [
+        "example",
+        "test"
+      ],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1704,
+      "user": "Peter_van_Werkhoven",
+      "fps": [],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1709,
+      "user": "Peter_van_Werkhoven",
+      "fps": [],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1722,
+      "user": "Meruem",
+      "fps": [
+        "_TZE284_bquwrqh1",
+        "Zbeacon",
+        "dlnraja",
+        "lumi",
+        "test",
+        "_TZE"
+      ],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1724,
+      "user": "Fantuz",
+      "fps": [
+        "_TZE284_9ern5sfh",
+        "_TZE"
+      ],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1725,
+      "user": "Wojciech_Ciarkowski",
+      "fps": [
+        "example"
+      ],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1728,
+      "user": "ManuelKugler",
+      "fps": [
+        "_TZE284_oitavov2",
+        "_TZE284_hdml1aav",
+        "_TZE284_aao3yzhs",
+        "_TZE200_npj9bug3",
+        "A89G12C",
+        "HOBEIAN",
+        "_TZE"
+      ],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
+    },
+    {
+      "topic": 140352,
+      "post": 1731,
+      "user": "Clement_Loridan",
+      "fps": [],
+      "reply": "AI_OFFLINE_OR_LIMIT_REACHED",
+      "model": "fallback-error-system"
     }
   ],
-  "githubDetails": [
-    {
-      "repo": "JohanBendz/com.tuya.zigbee",
-      "number": 1360,
-      "user": "gitebk",
-      "fps": [
-        "_TZE284_ne4pikwm",
-        "vision"
-      ],
-      "title": "Device Request - [Nedis SmartLife Radiator Control] - [_TZE284_ne4pikwm] / [TS0601]",
-      "response": "Fingerprints found: `_TZE284_ne4pikwm`\nProduct IDs: `TS0601`",
-      "model": "local-regex"
-    }
-  ]
+  "githubDetails": []
 }

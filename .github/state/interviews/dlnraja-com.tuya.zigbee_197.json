@@ -1,0 +1,26 @@
+{
+  "source": "github",
+  "repo": "dlnraja/com.tuya.zigbee",
+  "issue": 197,
+  "title": "[plug_energy_monitor] Bug: _TZ3000_wzmuk9ai",
+  "user": "haadeess",
+  "date": "2026-04-06T08:57:18Z",
+  "url": "https://github.com/dlnraja/com.tuya.zigbee/issues/197",
+  "fingerprints": [
+    "_TZ3000_wzmuk9ai"
+  ],
+  "bodyLength": 2760,
+  "excerpt": "Hi Dylan, my Smart plug works well. However, the current measurement is incorrect. Do you see anything how this measurement could work?\n\nb17da5bd-116d-4a0b-823c-b11cae7a52f1\n\n\n  \"ids\": {\n    \"modelId\": \"TS011F\",\n    \"manufacturerName\": \"_TZ3000_wzmuk9ai\"\n  },\n  \"endpoints\": {\n    \"ieeeAddress\": \"70:b3:d5:2b:60:0f:dd:76\",\n    \"networkAddress\": 28369,\n    \"modelId\": \"TS011F\",\n    \"manufacturerName\": \"_TZ3000_wzmuk9ai\",\n    \"endpointDescriptors\": [\n      {\n        \"status\": \"SUCCESS\",\n        \"nwkAddrOfInterest\": 28369,\n        \"_reserved\": 26,\n        \"endpointId\": 1,\n        \"applicationProfileId\": 260,\n        \"applicationDeviceId\": 81,\n        \"applicationDeviceVersion\": 0,\n        \"_reserved1\": 1,\n        \"inputClusters\": [\n          0,\n          6,\n          3,\n          4,\n          5,\n          57345,\n          2820,\n          1794\n        ],\n        \"outputClusters\": []\n      }\n    ],\n    \"deviceType\": \"router\",\n    \"receiveWhenIdle\": true,\n    \"swBuildId\": \"500+TZSKT21AD101\",\n    \"capabilities\": {\n      \"alternatePANCoordinator\": false,\n      \"deviceType\": true,\n      \"powerSourceMains\": true,\n      \"receiveWhenIdle\": true,\n      \"security\": false,\n      \"allocateAddress\": true\n    },\n    \"extendedEndpointDescriptors\": {\n      \"1\": {\n        \"clusters\": {\n          \"basic\": {\n            \"attributes\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsGenerated\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsReceived\": \"UNSUP_GENERAL_COMMAND\"\n          },\n          \"onOff\": {\n            \"attributes\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsGenerated\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsReceived\": \"UNSUP_GENERAL_COMMAND\"\n          },\n          \"identify\": {\n            \"attributes\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsGenerated\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsReceived\": \"UNSUP_GENERAL_COMMAND\"\n          },\n          \"groups\": {\n            \"attributes\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsGenerated\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsReceived\": \"UNSUP_GENERAL_COMMAND\"\n          },\n          \"scenes\": {\n            \"attributes\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsGenerated\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsReceived\": \"UNSUP_GENERAL_COMMAND\"\n          },\n          \"electricalMeasurement\": {\n            \"attributes\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsGenerated\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsReceived\": \"UNSUP_GENERAL_COMMAND\"\n          },\n          \"metering\": {\n            \"attributes\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsGenerated\": \"UNSUP_GENERAL_COMMAND\",\n            \"commandsReceived\": \"UNSUP_GENERAL_COMMAND\"\n          }\n        },\n        \"bindings\": {}\n      }\n    }\n  }\n\n\nThanks!",
+  "diagComments": [
+    {
+      "user": "github-actions[bot]",
+      "date": "2026-04-06T08:57:31Z",
+      "fps": [
+        "_TZ3000_wzmuk9ai"
+      ],
+      "excerpt": "<!-- tuya-triage-bot -->\nHey! I've peeked into the fingerprints shared here. Here's what I found:\n\n### ✅ Driver Status\nAlready supported in v5.12.2:\n\n- `_TZ3000_wzmuk9ai` → **button_wireless_2**, **plug_energy_monitor**\n- `TS011F` → **unknown**\n\n🚀 **Testing:** Install the [test version](https://homey.app/a/com.dlnraja.tuya.zigbee/test/), **remove and re-pair** the device. If it still shows as unknown, send me a diagnostic report ID.\n\n---\n[Test version](https://homey.app/a/com.dlnraja.tuya.zigbee/test/) · [Forum thread](https://community.homey.app/t/app-pro-universal-tuya-zigbee-device-app-test/140352) · [Developer Tools](https://tools.developer.homey.app)"
+    }
+  ],
+  "aiAnalysis": "AI_OFFLINE_OR_LIMIT_REACHED",
+  "aiModel": "fallback-error-system"
+}

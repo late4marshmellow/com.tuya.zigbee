@@ -31,10 +31,7 @@
   },
   "subDevices": [],
   "zigbee": {
-    "manufacturerName": [
-      "HOBEIAN",
-      "hobeian"
-    ],
+    "manufacturerName": [],
     "productId": [
       "ZG-227Z",
       "zg-227z"

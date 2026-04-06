@@ -21,15 +21,18 @@
   ],
   "zigbee": {
     "manufacturerName": [
-      "_TZE200_0HB4RDNP",
-      "_TZE200_0hb4rdnp",
-      "_TZE200_4MH6TYYO",
-      "_TZE200_4mh6tyyo",
-      "_TZE200_GNE0E6MK",
-      "_TZE200_gne0e6mk",
-      "_tze200_0hb4rdnp",
-      "_tze200_4mh6tyyo",
-      "_tze200_gne0e6mk"
+      "_tze200_bxoo2swd",
+      "_tze200_bxoo2swd",
+      "_tze200_bxoo2swd",
+      "_tyzb01_v8gtiaed",
+      "_tyzb01_v8gtiaed",
+      "_tyzb01_v8gtiaed",
+      "_tz3210_pagajpog",
+      "_tz3210_tkkb1ym8",
+      "_tz3210_pagajpog",
+      "_tz3210_tkkb1ym8",
+      "_tz3210_pagajpog",
+      "_tz3210_tkkb1ym8"
     ],
     "productId": [
       "TS0601",

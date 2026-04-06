@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-05T07:48:45.712Z",
+  "timestamp": "2026-04-06T16:53:59.808Z",
   "suggestions": [
     {
       "pattern": "False Battery Alert / Missing Battery",
@@ -16,15 +16,23 @@
           16
         ],
         [
+          "sensor",
+          12
+        ],
+        [
           "router",
-          6
+          12
         ],
         [
           "test",
-          5
+          10
         ],
         [
           "TS0202",
+          5
+        ],
+        [
+          "button",
           5
         ],
         [
@@ -32,19 +40,11 @@
           4
         ],
         [
+          "switch",
+          4
+        ],
+        [
           "example",
-          3
-        ],
-        [
-          "generic",
-          3
-        ],
-        [
-          "TS0044",
-          3
-        ],
-        [
-          "lumi",
           3
         ]
       ],
@@ -68,7 +68,15 @@
           5
         ],
         [
+          "test",
+          4
+        ],
+        [
           "example",
+          3
+        ],
+        [
+          "button",
           3
         ],
         [
@@ -76,15 +84,11 @@
           3
         ],
         [
+          "sensor",
+          3
+        ],
+        [
           "_TZ3000_o4mkahkc",
-          2
-        ],
-        [
-          "test",
-          2
-        ],
-        [
-          "_TZ3000_o4mkahk",
           2
         ],
         [
@@ -92,12 +96,8 @@
           2
         ],
         [
-          "_TZE284_hdml1aav",
+          "tube",
           2
-        ],
-        [
-          "_TZE204_ahwvlkpy",
-          1
         ]
       ],
       "fix": "Check driver.compose.json fingerprints, verify manufacturerName + productId",
@@ -112,16 +112,24 @@
       "priority": "high",
       "topFPs": [
         [
-          "vision",
-          3
+          "test",
+          6
         ],
         [
-          "test",
+          "vision",
           3
         ],
         [
           "TS0601",
           3
+        ],
+        [
+          "sensor",
+          3
+        ],
+        [
+          "debug",
+          2
         ],
         [
           "_TZ3210_w0qqde0g",
@@ -142,14 +150,6 @@
         [
           "_TZ3000_tsgqxdb4",
           1
-        ],
-        [
-          "sonoff",
-          1
-        ],
-        [
-          "debug",
-          1
         ]
       ],
       "fix": "Check Zigbee mesh, device routing, and cluster bindings",
@@ -162,6 +162,10 @@
       "priority": "high",
       "topFPs": [
         [
+          "test",
+          4
+        ],
+        [
           "TS0601",
           3
         ],
@@ -170,15 +174,15 @@
           2
         ],
         [
-          "test",
-          2
-        ],
-        [
           "tuya",
           2
         ],
         [
           "generic",
+          2
+        ],
+        [
+          "sensor",
           2
         ],
         [
@@ -195,10 +199,6 @@
         ],
         [
           "_TZE200_3p5ydos3",
-          1
-        ],
-        [
-          "_TZE204_n9ctkb6j",
           1
         ]
       ],
@@ -222,15 +222,15 @@
           3
         ],
         [
+          "router",
+          2
+        ],
+        [
           "_TZ3000_j1v25l17",
           2
         ],
         [
           "_TZE204_clrdrnya",
-          1
-        ],
-        [
-          "router",
           1
         ],
         [
@@ -242,15 +242,15 @@
           1
         ],
         [
+          "sensor",
+          1
+        ],
+        [
+          "relay",
+          1
+        ],
+        [
           "_TZ3000_gjnozsaz",
-          1
-        ],
-        [
-          "_TZ3000_g",
-          1
-        ],
-        [
-          "_TZ3210_ol1uhvza",
           1
         ]
       ],
@@ -268,15 +268,19 @@
           2
         ],
         [
+          "test",
+          2
+        ],
+        [
           "TS0601",
           2
         ],
         [
-          "_TZE204_qyr2m29i",
-          1
+          "router",
+          2
         ],
         [
-          "test",
+          "_TZE204_qyr2m29i",
           1
         ],
         [
@@ -288,11 +292,15 @@
           1
         ],
         [
-          "router",
+          "lumi",
           1
         ],
         [
-          "lumi",
+          "sensor",
+          1
+        ],
+        [
+          "relay",
           1
         ]
       ],
@@ -363,6 +371,14 @@
       "priority": "low",
       "topFPs": [
         [
+          "debug",
+          2
+        ],
+        [
+          "test",
+          2
+        ],
+        [
           "_TZ3000_tsgqxdb4",
           1
         ],
@@ -371,19 +387,15 @@
           1
         ],
         [
-          "debug",
-          1
-        ],
-        [
-          "test",
-          1
-        ],
-        [
           "TS0201",
           1
         ],
         [
           "TS0601",
+          1
+        ],
+        [
+          "sensor",
           1
         ]
       ],
@@ -397,11 +409,11 @@
       "priority": "low",
       "topFPs": [
         [
-          "_TZE204_clrdrnya",
-          1
+          "router",
+          2
         ],
         [
-          "router",
+          "_TZE204_clrdrnya",
           1
         ],
         [
@@ -414,6 +426,14 @@
         ],
         [
           "TS0601",
+          1
+        ],
+        [
+          "sensor",
+          1
+        ],
+        [
+          "relay",
           1
         ]
       ],

@@ -1,7 +1,7 @@
 {
   "repos": {
     "dlnraja/com.tuya.zigbee": {
-      "lastIssue": "2026-04-03T11:17:24Z",
+      "lastIssue": "2026-04-06T12:33:49Z",
       "lastPR": null
     },
     "JohanBendz/com.tuya.zigbee": {
@@ -10,29 +10,29 @@
     }
   },
   "forks": {
-    "pkuijpers/com.tuya.zigbee": "2026-03-29T01:53:46.025Z",
-    "bmalkow/com.tuya.zigbee": "2026-03-29T01:53:46.998Z",
-    "baschte/de.baschte.tuya.zigbee": "2026-03-29T01:53:48.001Z",
-    "tomkusz/com.tuya.zigbee": "2026-03-29T01:53:49.011Z",
-    "Mmaaikel/com.tuya.zigbee": "2026-03-29T01:53:49.993Z",
-    "hendriksenremco/com.tuya.zigbee": "2026-03-29T01:53:50.997Z",
-    "sebastianbrand01/com.tuya.zigbee": "2026-03-29T01:53:52.002Z",
-    "kodalissri/com.tuya.zigbee": "2026-03-29T01:53:53.040Z",
-    "SietzeM/com.tuya.zigbee": "2026-03-29T01:53:53.999Z",
-    "theswim/com.tuya.zigbee": "2026-03-29T01:53:55.003Z",
-    "willarentz/com.tuya.zigbee": "2026-03-29T01:53:56.008Z",
-    "kindberg95/com.tuya.zigbee": "2026-03-29T01:53:57.013Z",
-    "Peter-Celica/com.tuya.zigbee": "2026-03-29T01:53:58.012Z",
-    "dlnraja/com.tuya.zigbee": "2026-03-29T01:53:59.028Z",
-    "script0803/com.tuya.zigbee": "2026-03-29T01:54:00.010Z",
-    "IsaacNZ2/com.tuya.zigbee": "2026-03-29T01:54:01.008Z",
-    "jievie2000/com.tuya.zigbee": "2026-03-29T01:54:02.019Z",
+    "pkuijpers/com.tuya.zigbee": "2026-04-06T14:57:54.611Z",
+    "bmalkow/com.tuya.zigbee": "2026-04-06T14:57:55.597Z",
+    "baschte/de.baschte.tuya.zigbee": "2026-04-06T14:57:56.562Z",
+    "tomkusz/com.tuya.zigbee": "2026-04-06T14:57:57.564Z",
+    "Mmaaikel/com.tuya.zigbee": "2026-04-06T14:57:58.559Z",
+    "hendriksenremco/com.tuya.zigbee": "2026-04-06T14:57:59.553Z",
+    "sebastianbrand01/com.tuya.zigbee": "2026-04-06T14:58:00.583Z",
+    "kodalissri/com.tuya.zigbee": "2026-04-06T14:58:01.551Z",
+    "SietzeM/com.tuya.zigbee": "2026-04-06T14:58:02.561Z",
+    "theswim/com.tuya.zigbee": "2026-04-06T14:58:03.568Z",
+    "willarentz/com.tuya.zigbee": "2026-04-06T14:58:04.568Z",
+    "kindberg95/com.tuya.zigbee": "2026-04-06T14:58:05.566Z",
+    "Peter-Celica/com.tuya.zigbee": "2026-04-06T14:58:06.555Z",
+    "dlnraja/com.tuya.zigbee": "2026-04-06T14:58:07.553Z",
+    "script0803/com.tuya.zigbee": "2026-04-06T14:58:08.577Z",
+    "IsaacNZ2/com.tuya.zigbee": "2026-04-06T14:58:09.574Z",
+    "jievie2000/com.tuya.zigbee": "2026-04-06T14:58:10.560Z",
     "AlfredMBG/com.tuya.zigbee": "2026-03-29T01:54:03.025Z",
     "mayconbordin/com.tuya.zigbee": "2026-03-29T01:54:04.026Z",
     "cmanl/com.tuya.zigbee": "2026-03-29T01:54:05.030Z",
-    "Robsta86/com.tuya.zigbee": "2026-03-30T05:00:41.083Z",
+    "Robsta86/com.tuya.zigbee": "2026-04-06T14:57:53.552Z",
     "finnamu/com.tuya.zigbee": "2026-04-02T15:03:42.094Z",
     "telenut/com.tuya.zigbee": "2026-04-02T15:03:43.102Z"
   },
-  "lastRun": "2026-04-03T14:52:34.784Z"
+  "lastRun": "2026-04-06T15:00:03.810Z"
 }

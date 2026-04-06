@@ -1,9 +1,38 @@
 {
-  "ts": "2026-04-04T03:41:52.965Z",
+  "ts": "2026-04-06T16:00:33.454Z",
   "ghCalls": 80,
   "variants": {
-    "count": 0,
-    "items": []
+    "count": 4,
+    "items": [
+      {
+        "known": "_TZE200_bjzrowv2",
+        "variant": "_TZE204_bjzrowv2",
+        "driver": "air_purifier",
+        "pid": null,
+        "src": "z2m-raw"
+      },
+      {
+        "known": "_TZE200_bjzrowv2",
+        "variant": "_TZE284_bjzrowv2",
+        "driver": "air_purifier",
+        "pid": null,
+        "src": "z2m-raw"
+      },
+      {
+        "known": "_TZE200_4vobcgd3",
+        "variant": "_TZE284_4vobcgd3",
+        "driver": "air_purifier",
+        "pid": null,
+        "src": "z2m-raw"
+      },
+      {
+        "known": "_TZE200_r0jdjrvi",
+        "variant": "_TZE204_r0jdjrvi",
+        "driver": "air_purifier",
+        "pid": null,
+        "src": "z2m-raw"
+      }
+    ]
   },
   "pids": {
     "count": 0,
