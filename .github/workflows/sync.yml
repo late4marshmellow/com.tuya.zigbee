@@ -1,18 +1,45 @@
-name: Sync Fork
+name: Sync Fork (into fork-sync)
 
 on:
   schedule:
-    - cron: '0 * * * *'  # every hour
-  workflow_dispatch:     # allow manual trigger
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Sync fork
-        uses: repo-sync/github-sync@v2
+      - name: Checkout fork-sync branch
+        uses: actions/checkout@v4
         with:
-          source_repo: "dlnraja/com.tuya.zigbee"
-          source_branch: "master"
-          destination_branch: "master"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          ref: fork-sync
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "sync-bot"
+          git config user.email "sync@bot.com"
+
+      - name: Add upstream
+        run: |
+          git remote add upstream https://github.com/dlnraja/com.tuya.zigbee.git
+          git fetch upstream
+
+      - name: Merge upstream into fork-sync
+        run: |
+          git merge upstream/master --no-edit || true
+
+      - name: Restore workflows (keep yours)
+        run: |
+          git restore --source=HEAD --staged --worktree .github/workflows || true
+
+      - name: Commit if needed
+        run: |
+          if ! git diff --quiet; then
+            git commit -am "Sync upstream into fork-sync (preserve workflows)"
+          fi
+
+      - name: Push fork-sync
+        run: |
+          git push origin fork-sync
