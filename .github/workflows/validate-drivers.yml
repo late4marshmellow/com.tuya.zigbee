@@ -26,6 +26,34 @@ jobs:
       - name: Install dependencies
         run: npm ci || npm install
 
+      - name: Check duplicate Flow card IDs across drivers
+        run: |
+          node -e "
+            const fs = require('fs'), path = require('path');
+            const driversDir = path.join(process.cwd(), 'drivers');
+            const seen = {};
+            let fail = false;
+            for (const d of fs.readdirSync(driversDir)) {
+              const fp = path.join(driversDir, d, 'driver.flow.compose.json');
+              if (!fs.existsSync(fp)) continue;
+              let flow;
+              try { flow = JSON.parse(fs.readFileSync(fp, 'utf8')); } catch { continue; }
+              for (const type of ['triggers','conditions','actions']) {
+                for (const card of flow[type] || []) {
+                  if (!card.id) continue;
+                  if (seen[card.id]) {
+                    console.error('DUPLICATE flow card id \"' + card.id + '\" in driver \"' + d + '\" (also in \"' + seen[card.id] + '\")');
+                    fail = true;
+                  } else {
+                    seen[card.id] = d;
+                  }
+                }
+              }
+            }
+            if (fail) process.exit(1);
+            console.log('No duplicate flow card IDs found across drivers (' + Object.keys(seen).length + ' IDs checked).');
+          "
+
       - name: Validate Homey SDK Constraints
         run: |
           npx homey app validate --level publish
